@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Three Rows</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/shorthand.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/slider2.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/headerNav.css">
+    <link rel="stylesheet" href="css/topSlider.css">
+</head>
+
+<body>
+    <header class="header-sec">
+        <div class="container  header-top_wrapper">
+            <div class="row py-2 header-top text-start">
+                <div class="col-12 col-sm-4 d-flex displayCenter"><i class="fa-solid pe-2 fa-clock fa-beat"></i>
+                    <div class=" fw-600" id="date-time"> </div>
+                </div>
+                <div class="col-12 col-sm-4 d-flex displayCenter"><i class="fa-solid pe-2 fa-envelope fa-bounce"></i>
+                    <div class=" fw-600">example@example.com</div>
+                </div>
+                <div class="col-12 col-sm-4 d-flex displayCenter"><i class="fa-solid pe-2 fa-phone-volume fa-shake"></i>
+                    <div class=" fw-600">954-456-7890</div>
+                </div>
+
+
+            </div>
+        </div>
+        <div>
+        
+        <marquee behavior="scroll" direction="left" bgcolor="#008bf6" style="color: white;text-transform: uppercase;" class="p-2 fs-5 marquee">Lorem
+                ipsum, dolor sit amet consectetur adipisicing elit. Et expedita atque nulla facilis quis non. Molestiae
+                ipsum a qui soluta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ullam facilis
+                obcaecati consectetur adipisci numquam doloribus officia. Cupiditate, nihil eligendi.</marquee>
+        </div>
+        <div class="container logo_container">
+            <div class="row logo-row">
+                <div class="container">
+                    <div class="logo"><img src="images/logo.png" alt="" class="w-100 "></div>
+                </div>
+            </div>
+        </div>
+        <div class="displayCenter header-sec-nav">
+            <div class="row">
+
+                <nav class="navigation ts-main-menu navigation-landscape ">
+                    <div class="nav-header d-lg-none">
+                        <div class="nav-toggle" onclick="toggleNavMenu()">
+                            <i class="bi bi-list"></i> <!-- Bootstrap icon for toggle -->
+                        </div>
+                    </div>
+                    <!--nav brand end-->
+
+                    <div class="nav-menus-wrapper clearfix" style="transition-property: none;">
+                        <!-- nav menu start-->
+                        <ul class="nav-menu">
+                            <li class="active">
+                                <a href="#"><span class="first-letter">H</span>ome</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="#"><span class="first-letter">A</span>bout<span class="submenu-indicator"><span
+                                            class="submenu-indicator-chevron"><i
+                                                class="bi bi-chevron-down submenu-indicator-chevron"></i></span></span></a>
+                                <ul class="nav-dropdown nav-submenu" style="right: auto;">
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="">Chairman's Message</a></li>
+                                    <li><a href="">Principal's Message</a></li>
+                                    <li><a href="">Vice Principal's Message</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href=""><span class="first-letter">C</span>urriculmn</a>
+                            </li>
+                            <li class="">
+                                <a href="#"><span class="first-letter">F</span>aculty</a>
+
+                            </li>
+                            <li class="">
+                                <a href=""><span class="first-letter">G</span>eneral Rules</a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="#"><span class="first-letter">F</span>acilities<span
+                                        class="submenu-indicator"><span class="submenu-indicator-chevron"><i
+                                                class="bi bi-chevron-down submenu-indicator-chevron"></i></span></span></a>
+                                <ul class="nav-dropdown nav-submenu" style="right: auto;">
+                                    <li class=""><a href="">Laboratory</a></li>
+                                    <li class=""><a href="">CC TV </a></li>
+                                    <li class=""><a href="">Playground</a></li>
+                                    <li class=""><a href="">Bus</a></li>
+                                    <li class=""><a href="">RO Water</a></li>
+                                    <li class=""><a href="">Fire Safety</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href=""><span class="first-letter">A</span>ctivities</a>
+                            </li>
+                            <li class="">
+                                <a href=""><span class="first-letter">A</span>chivements</a>
+                            </li>
+                            <li class="">
+                                <a href=""><span class="first-letter">P</span>rograms</a>
+                            </li>
+                            <li class="">
+                                <a href=""><span class="first-letter">E</span>vents</a>
+                            </li>
+                            <li class="">
+                                <a href=""><span class="first-letter">G</span>allery</a>
+                            </li>
+                            <li class="">
+                                <a href=""><span class="first-letter">C</span>ontact</a>
+                            </li>
+                            <li class="">
+                                <a href=""><span class="first-letter">S</span>tundents Corner</a>
+                            </li>
+                            <li class="">
+                                <a href=""><span class="first-letter">T</span>eachers Tutor</a>
+                            </li>
+
+                            <li class="">
+                                <a href=""><span class="first-letter">C</span>ontact</a>
+                            </li>
+                            <button class="close-btn text-white d-lg-none" onclick="toggleNavMenu()">X</button>
+
+                        </ul>
+                        <!--nav menu end-->
+                        <!-- Close button for sidebar -->
+
+                    </div>
+                    <div class="nav-overlay-panel"></div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <!-- slider -->
+    <section>
+        <div class="slider-container">
+            <div class="sliders">
+                <div class="slides"><img class="w-100"
+                        src="https://media.istockphoto.com/id/1152134905/photo/double-exposure-of-student-graduation-watching-the-sunrise.jpg?s=2048x2048&w=is&k=20&c=D-SGBfSA6ZqzWwS6mc3VcJIErXzEeLbqT06dygteH_w="
+                        alt=""></div>
+                <div class="slides"><img class="w-100"
+                        src="https://media.istockphoto.com/id/1152134905/photo/double-exposure-of-student-graduation-watching-the-sunrise.jpg?s=2048x2048&w=is&k=20&c=D-SGBfSA6ZqzWwS6mc3VcJIErXzEeLbqT06dygteH_w="
+                        alt=""></div>
+                <div class="slides"><img class="w-100"
+                        src="https://media.istockphoto.com/id/1152134905/photo/double-exposure-of-student-graduation-watching-the-sunrise.jpg?s=2048x2048&w=is&k=20&c=D-SGBfSA6ZqzWwS6mc3VcJIErXzEeLbqT06dygteH_w="
+                        alt=""></div>
+                <div class="slides"><img class="w-100"
+                        src="https://media.istockphoto.com/id/1152134905/photo/double-exposure-of-student-graduation-watching-the-sunrise.jpg?s=2048x2048&w=is&k=20&c=D-SGBfSA6ZqzWwS6mc3VcJIErXzEeLbqT06dygteH_w="
+                        alt=""></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="first-sec mb-5">
+        <div class="container">
+            <div class="section-title py-5" data-aos="zoom-in-up" data-aos-duration="1000">
+                <span class="short-title">Event</span>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6  mb-4"  data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6  mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6  mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6  mb-4" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6  mb-4" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <!-- <div class="card-overlay">
+                    Hover Text 3
+                  </div> -->
+                    </div>
+                </div>
+                <!-- Add more card elements here -->
+            </div>
+        </div>
+    </section>
+    <!-- slider End -->
+
+   
+
+    <section class="third-sec displayCenter position-relative mb-5">
+        <!-- <div>
+            <img src="images/banana-with-boy.png" alt="" class="position-absolute banana_png" >
+        </div> -->
+        <div class="container">
+            <div class="section-title py-5" data-aos="zoom-in-up" data-aos-duration="1000">
+                <span class="short-title">Event</span>
+
+            </div>
+            <div class="row third-sec-row">
+                <div class="col-md-6 col-lg-3 ">
+                    <div class="card">
+                        <div class="card-title fs-4">News Event</div>
+                        <div class="card-body">
+                            <!-- <marquee behavior="scroll" direction="up"> -->
+                            <div class="roll p-1">
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Duplicate the above card structure three more times -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img
+                                    src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true"> -->
+                                <i class="bi bi-question-square"></i>
+                                <h3>Question Paper</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
+                                    veritatis provident at.</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repeat the above col-md-3 div two more times -->
+                <div class="col-md-6 col-lg-3 ">
+                    <div class="card">
+                        <div class="card-title fs-4">Upcoming Event</div>
+                        <div class="card-body">
+                            <!-- <marquee behavior="scroll" direction="up"> -->
+                            <div class="roll p-1">
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+                                <li style=" list-style:square;">39th Annual Day Kindergarten highlights- <a
+                                        href="https://youtu.be/rgGAP4ql5e8?si=TjxaSC7rtY_7EaPB" target="_blank"
+                                        style="color:#FFFFFF;"><span style="color:red;">Click Link</span></a> </li>
+
+                            </div>
+                            <!-- </marquee> -->
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img
+                                    src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true"> -->
+                                <i class="bi bi-question-square"></i>
+
+                                <h3>Some</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
+                                    veritatis provident at.</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="displayCenter Slider_One mb-5">
+        <!-- cards end-->
+        <div class="container">
+            <div class="section-title py-5" data-aos="zoom-in-up" data-aos-duration="1000">
+                <span class="short-title">Facilities</span>
+
+            </div>
+            <div class="center slider">
+                <div><img src="https://www.facilitiesnet.com/resources/editorial/2020/46287-Classroom.jpg"
+                        class="w-100 ps-4 rounded"></div>
+                <div><img
+                        src="https://img.freepik.com/free-vector/school-territory-elements-classes-library-canteen-teachers-pupils-set-cartoon-icons_1284-31090.jpg"
+                        class="w-100 ps-4 rounded"></div>
+                <div><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjUc5AgTb_R0EbMW_sPmVuRltM6MNcwqee2zzcshLPqg&s"
+                        class="w-100 ps-4 rounded"></div>
+                <div><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDIO6qngpK8aII0eOH8-etFm9eU6Sbgqmz2-y5zLxCA&s"
+                        class="w-100 ps-4 rounded"></div>
+                <div><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtyiqU25WT9t15bdfiz3YxUI_SQ4Zk-UGe31C0kxm4Tg&s"
+                        class="w-100 ps-4 rounded"></div>
+                <div><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJhs5fdZ75VLfWoEn1d_HZ314iMry94MtxXAhjQDibAw&s"
+                        class="w-100 ps-4 rounded"></div>
+                <div><img src="https://tas.edu.in/wp-content/uploads/2020/09/Slider-6-1.png" class="w-100 ps-4 rounded">
+                </div>
+                <div><img
+                        src="https://igcse.alphaeducation.edu.in/wp-content/uploads/2020/01/Audio-visual-classroom-acis-1.jpg"
+                        class="w-100 ps-4 rounded"></div>
+                <div><img src="https://tas.edu.in/wp-content/uploads/2020/09/Slider-5-1.png" class="w-100 ps-4 rounded">
+                </div>
+                <div><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtlUuMITrlul_1hqXMHd7ewnTsXOWtCQ1T7kB9gWbGw&s"
+                        class="w-100 ps-4 rounded"></div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+    <!-- =================================================== -->
+    <section class="mb-5">
+        <div class="container">
+            <div class="section-title py-5" data-aos="zoom-in-up" data-aos-duration="1000">
+                <span class="short-title">Topper</span>
+
+            </div>
+            <div class="aslider">
+                <div class="aslide" id="aslider">
+                  <!-- Achievement cards will be dynamically added here -->
+                </div>
+              </div>
+        </div>
+    </section>
+
+
+    <!-- ==========trying =============-->
+
+    <section class="displayCenter topper mb-5">
+
+       
+        <div class="carousel-container topper-top">
+            <div class="section-title py-5" data-aos="zoom-in-up" data-aos-duration="1000">
+                <span class="short-title">Achivements</span>
+    
+            </div>
+            <div class="carousel">
+                <div class="item">
+                    <div class="card  ">
+                        <img src="images/toppers/1.jpg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <p class="card-text">Name</p>
+                            <p class="card-text">STD</p>
+                            <p class="card-text">YEAR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card  ">
+                        <img src="images/toppers/1.jpg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <p class="card-text">Name</p>
+                            <p class="card-text">STD</p>
+                            <p class="card-text">YEAR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card  ">
+                        <img src="images/toppers/1.jpg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <p class="card-text">Name</p>
+                            <p class="card-text">STD</p>
+                            <p class="card-text">YEAR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card  ">
+                        <img src="images/toppers/1.jpg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <p class="card-text">Name</p>
+                            <p class="card-text">STD</p>
+                            <p class="card-text">YEAR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card  ">
+                        <img src="images/toppers/1.jpg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <p class="card-text">Name</p>
+                            <p class="card-text">STD</p>
+                            <p class="card-text">YEAR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card  ">
+                        <img src="images/toppers/1.jpg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <p class="card-text">Name</p>
+                            <p class="card-text">STD</p>
+                            <p class="card-text">YEAR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card  ">
+                        <img src="images/toppers/1.jpg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <p class="card-text">Name</p>
+                            <p class="card-text">STD</p>
+                            <p class="card-text">YEAR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card  ">
+                        <img src="images/toppers/1.jpg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <p class="card-text">Name</p>
+                            <p class="card-text">STD</p>
+                            <p class="card-text">YEAR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class=" displayCenter gallery_wrapper mb-5">
+        <div class="container">
+            <div class="section-title py-5" data-aos="zoom-in-up" data-aos-duration="1000">
+                <span class="short-title">Gallery</span>
+
+            </div>
+            <div class="gallery ">
+                <div class="gallery-item">
+                    <img src="https://template59490.motopreview.com/mt-demo/59400/59490/mt-content/uploads/2017/02/mt-0856-home-gallery-small1.jpg"
+                        alt="Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://template59490.motopreview.com/mt-demo/59400/59490/mt-content/uploads/2017/02/mt-0856-home-gallery-small1.jpg"
+                        alt="Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://template59490.motopreview.com/mt-demo/59400/59490/mt-content/uploads/2017/02/mt-0856-home-gallery-small1.jpg"
+                        alt="Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://template59490.motopreview.com/mt-demo/59400/59490/mt-content/uploads/2017/02/mt-0856-home-gallery-small1.jpg"
+                        alt="Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://template59490.motopreview.com/mt-demo/59400/59490/mt-content/uploads/2017/02/mt-0856-home-gallery-small1.jpg"
+                        alt="Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://template59490.motopreview.com/mt-demo/59400/59490/mt-content/uploads/2017/02/mt-0856-home-gallery-small1.jpg"
+                        alt="Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://template59490.motopreview.com/mt-demo/59400/59490/mt-content/uploads/2017/02/mt-0856-home-gallery-small1.jpg"
+                        alt="Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://template59490.motopreview.com/mt-demo/59400/59490/mt-content/uploads/2017/02/mt-0856-home-gallery-small1.jpg"
+                        alt="Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://template59490.motopreview.com/mt-demo/59400/59490/mt-content/uploads/2017/02/mt-0856-home-gallery-small1.jpg"
+                        alt="Image 1">
+                </div>
+
+                <!-- Add more gallery items as needed -->
+            </div>
+        </div>
+
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-image">
+        </div>
+    </section>
+
+
+    <footer>
+        <section class="footer_section">
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="widget_column widget_about">
+                                <div class="footer_logo">
+                                    <a href="index-2.html">
+                                        <img src="images/logo.png" alt="" class="w-100">
+                                    </a>
+                                </div>
+                                <p>Nemo enim ipsam voluptate quia
+                                    voluptas sit aspernatur aut odit
+                                    aut fugit, sed quia magni this
+                                    dolores eos qui ratione .</p>
+                                <ul class="social_widget">
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="widget_column widget_link">
+                                <h2>about us</h2>
+                                <ul>
+                                    <li><a href="services-single.html">Best Services</a></li>
+                                    <li><a href="services-single.html">Department</a></li>
+                                    <li><a href="services-single.html">Make An Appointment</a></li>
+                                    <li><a href="services-single.html">About Our Company</a></li>
+                                    <li><a href="services-single.html">Business Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="widget_column widget_link">
+                                <h2>Facilities</h2>
+                                <ul>
+                                    <li><a href="services-single.html">Best Services</a></li>
+                                    <li><a href="services-single.html">Department</a></li>
+                                    <li><a href="services-single.html">Make An Appointment</a></li>
+                                    <li><a href="services-single.html">About Our Company</a></li>
+                                    <li><a href="services-single.html">Business Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-3 col-md-6 col-12">
+                <div class="widget_column widget_insatagram">
+                  <h2>Our Gallery</h2>
+                  <ul>
+                    <li><img src="images/achivement.jpg" alt=""></li>
+                    <li><img src="images/achivement.jpg" alt=""></li>
+                    <li><img src="images/achivement.jpg" alt=""></li>
+                    <li><img src="images/achivement.jpg" alt=""></li>
+                    <li><img src="images/achivement.jpg" alt=""></li>
+                    <li><img src="images/achivement.jpg" alt=""></li>
+                  </ul>
+                </div>
+              </div> -->
+                        <div class=" col-lg-3 col-md-6 col-12">
+                            <div class="widget_column widget_contact">
+                                <h2>Our Contacts</h2>
+                                <div>
+                                    <span>Adress: 27 Division St, Berakuti,
+                                        NY 121102, USA</span>
+                                </div>
+                                <div>
+                                    <span>Phone: +8 1440 456 782</span>
+                                    <span>Fax: +8 846512 456 788</span>
+                                </div>
+                                <div>
+                                    <span>Email: example@mail.com </span>
+                                    <span>Website: yourwebsite.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Copyright all rights reserved. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-1">
+                <img src="assets/images/footer/shape-1.png" alt="">
+            </div>
+            <div class="shape-2">
+                <img src="assets/images/footer/shape-2.png" alt="">
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+
+
+
+    </script>
+
+    <!--======================================== slider============================================== -->
+    <script>
+
+        let slideIndex = 0;
+        const intervalDuration = 3000; // Adjust this value to change the interval duration (in milliseconds)
+
+        function showNextSlide() {
+            const slides = document.querySelectorAll('.slides');
+            slideIndex++;
+            if (slideIndex >= slides.length) { slideIndex = 0; }
+            const offset = -slideIndex * 100;
+            document.querySelector('.sliders').style.transform = `translateX(${offset}%)`;
+        }
+
+        // Automatically move to the next slide every intervalDuration milliseconds
+        setInterval(showNextSlide, intervalDuration);
+
+
+
+    </script>
+
+    <script>
+        function toggleNavMenu() {
+    var navMenu = document.querySelector('.nav-menu');
+    navMenu.classList.toggle('active');
+
+    // Toggle body scrollability
+    document.body.classList.toggle('no-scroll');
+}
+    </script>
+    <!--======================================== slider end============================================== -->
+
+    <script>
+        $(document).ready(function () {
+            $('.center.slider').slick({
+                dots: true,
+                centerMode: true,
+                centerPadding: '0',
+                slidesToShow: 3,
+                prevArrow: true,
+                nextArrow: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: true,
+                            centerMode: true,
+                            centerPadding: '10px',
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+
+<script>
+    // Get the modal
+var modal = document.querySelector('.modal');
+
+// Get the image and insert it inside the modal
+var images = document.querySelectorAll('.gallery-item img');
+var modalImg = document.getElementById("modal-image");
+
+images.forEach(function(image) {
+  image.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+  }
+});
+
+// Close the modal when clicking on the close button
+var closeBtn = document.querySelector('.close');
+closeBtn.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+    <script>
+        // Update date and time every second
+        function updateDateTime() {
+            const dateTimeElement = document.getElementById('date-time');
+            const now = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+            const formattedDateTime = now.toLocaleDateString('en-US', options);
+            dateTimeElement.textContent = formattedDateTime;
+        }
+
+        // Update date and time initially and then every second
+        document.addEventListener('DOMContentLoaded', function () {
+            updateDateTime();
+            setInterval(updateDateTime, 1000);
+        });
+
+    </script>
+    <!-- ======================================== ul > li > 1st word change================================ -->
+
+
+    <script>
+        const carousel = document.querySelector('.carousel');
+const items = document.querySelectorAll('.item');
+const totalItems = items.length;
+let currentIndex = 0;
+
+function moveNext() {
+  currentIndex++;
+  updateCarousel();
+}
+
+function movePrev() {
+  currentIndex--;
+  updateCarousel();
+}
+
+function updateCarousel() {
+  if (currentIndex >= totalItems) {
+    currentIndex = 0;
+  } else if (currentIndex < 0) {
+    currentIndex = totalItems - 1;
+  }
+
+  let translateValue;
+  const viewportWidth = window.innerWidth;
+
+  if (viewportWidth <= 500) {
+    translateValue = -(currentIndex % totalItems) * 50; // Adjust based on item width
+  } else {
+    translateValue = -(currentIndex % totalItems) * 20; // Adjust based on item width
+  }
+
+  carousel.style.transform = `translateX(${translateValue}%)`;
+}
+
+setInterval(moveNext, 3000); // Auto-scroll
+
+    </script>
+
+<script>
+   const achievements = [
+  { 
+    title: "Science Fair Winner", 
+    description: "First place in the annual science fair competition.", 
+    image: "https://bluestarsschool.edu.in/images/achievers/achievers1315.jpeg" 
+  },
+  { 
+    title: "Math Olympiad Champion", 
+    description: "Achieved the highest score in the national math olympiad.", 
+    image: "https://bluestarsschool.edu.in/images/achievers/achievers1774.jpeg" 
+  },
+  { 
+    title: "Student Council President", 
+    description: "Elected as the president of the student council for exceptional leadership.", 
+    image: "	https://bluestarsschool.edu.in/images/achievers/achievers1711.jpeg" 
+  },
+  { 
+    title: "Science Fair Winner", 
+    description: "First place in the annual science fair competition.", 
+    image: "	https://bluestarsschool.edu.in/images/achievers/achievers1192.jpeg" 
+  },
+  { 
+    title: "Math Olympiad Champion", 
+    description: "Achieved the highest score in the national math olympiad.", 
+    image: "https://bluestarsschool.edu.in/images/achievers/achievers1298.jpeg" 
+  },
+  { 
+    title: "Student Council President", 
+    description: "Elected as the president of the student council for exceptional leadership.", 
+    image: "https://bluestarsschool.edu.in/images/achievers/achievers1315.jpeg" 
+  },
+  // Add more achievements with image paths
+];
+
+  const slider = document.getElementById('aslider');
+
+  // Populate achievement cards
+achievements.forEach(achievement => {
+  const achievementCard = document.createElement('div');
+  achievementCard.classList.add('achievement-card');
+  achievementCard.innerHTML = `
+    <img src="${achievement.image}" alt="${achievement.title}">
+    <h3>${achievement.title}</h3>
+    <p>${achievement.description}</p>
+  `;
+  slider.appendChild(achievementCard);
+});
+
+  let aslideIndex = 0;
+  const slides = document.querySelectorAll('.aslide');
+  const totalSlides = slides.length;
+
+  function showSlides() {
+    slides.forEach(slide => {
+      slide.style.transform = `translateX(-${aslideIndex * 100}%)`;
+    });
+  }
+
+  function nextSlide() {
+    if (aslideIndex < totalSlides - 1) {
+      aslideIndex++;
+    } else {
+      aslideIndex = 0;
+    }
+    showSlides();
+  }
+
+  setInterval(nextSlide, 3000); // Automatically switch slides every 3 seconds
+  </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

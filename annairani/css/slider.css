@@ -1,0 +1,53 @@
+.Slider_One{
+
+  /* background-image: url(../images/background.jpg); */
+  /* Set background size to cover the entire section */
+  /* background-size: contain; */
+
+  /* Set background attachment to fixed to keep the image fixed while scrolling */
+  /* background-attachment: fixed; */
+}
+  .sliders {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .slider-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+    flex: 0 0 100%;
+    width: 100%;
+    height: calc(75vh - 40px); /* Adjusted height to leave space for buttons */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  

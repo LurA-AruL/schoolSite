@@ -1,0 +1,57 @@
+/* font  */
+
+.fw-600{
+font-weight: 600;
+}
+
+.displayCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.min-vh-60 {
+    min-height: 60vh; /* Set minimum height to 200 pixels */
+  }
+
+  .min-vh-80 {
+    min-height: 80vh; /* Set minimum height to 200 pixels */
+  }
+  .min-vh-40{
+    min-height: 40vh; /* Set minimum height to 200 pixels */
+
+  }
+  .min-vh-100{
+    min-height: 100vh; /* Set minimum height to 200 pixels */
+
+  }
+
+  /* headeing */
+
+  .lv1{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .lv2{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .lv3{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+.section-title {
+    text-align: center;
+}
+.short-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #470081eb;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+}
+
+.overflow-hidden{
+  overflow:hidden ;
+}

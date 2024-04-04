@@ -1,0 +1,277 @@
+
+
+.nav-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* background color of dropdown menu */
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* optional: box shadow for dropdown */
+}
+
+.nav-dropdown li {
+    margin-bottom: 5px; /* optional: spacing between menu items in dropdown */
+}
+
+.nav-dropdown li a {
+    color: #333; /* text color of menu items in dropdown */
+    text-decoration: none;
+}
+
+/* Adjust dropdown position */
+.nav-dropdown {
+    top: 100%; /* position the dropdown below the menu item */
+    left: 0; /* adjust as needed */
+    z-index: 999;
+}
+.nav-submenu li{
+    padding: 0;
+}
+.nav-submenu li a:hover{
+    color: #005b82;
+}
+
+.nav-menu li:hover .nav-dropdown {
+    width: 283%;
+    display: flex;
+    flex-direction: column;
+}
+.submenu-indicator-chevron {
+    font-size: 0.8rem; /* Adjust icon size as needed */
+    margin-left: 2px; /* Adjust spacing between text and icon */
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CSS for mobile navbar toggle button */
+.nav-toggle {
+    display: none; /* Hide toggle button by default */
+}
+
+.nav-menu {
+    display: none; /* Initially hide nav-menu on small screens */
+    position: fixed; /* Change position to fixed */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+
+    height: 100%; /* Take full height of the viewport */
+    
+    width: 50%; /* Adjust width as needed */
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for mobile navbar */
+    z-index: 999; /* Ensure the navbar appears above other content */
+    
+}
+
+.nav-menu.active {
+    display: block; /* Display nav-menu when active class is present */
+    transform: translateX(0%); /* Slide in from the left */
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    transition: all 8s ease; /* Add transition for smooth animation */
+
+}
+
+.nav-toggle {
+    display: block; /* Display toggle button on small screens */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #a72121;
+    border: none;
+}
+
+@media screen and (min-width: 992px) {
+    
+    .nav-menu {
+        display: block; /* Display nav-menu on larger screens */
+        position: static; /* Reset position to static on larger screens */
+        width: auto; /* Reset width to auto on larger screens */
+        box-shadow: none; /* Reset box shadow on larger screens */
+    
+    }
+    
+}
+
+/* CSS for nav-menu to display it on small screens */
+@media screen and (max-width: 992px) {
+
+    .nav-toggle:checked ~ .nav-menu {
+        display: block; /* Display nav-menu when toggle button is checked */
+    }
+
+    .nav-toggle {
+        display: block; /* Display toggle button on small screens */
+    }
+    .nav-menu {
+        overflow: hidden; /* Enable vertical scrolling if needed */
+        background-color: #000000ec; /* Background color of mobile navbar */
+    }
+    .bi-list::before {
+        color: white;
+        font-size: 30px;
+    }
+    .header-sec .row {
+        margin-bottom: 0px;
+        padding: 5px;
+    }
+    .nav-toggle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-brand img {
+        height: 72px !important;
+    }
+    .card-img-top{
+        width: 100px;
+        height: 100px;
+      }
+      .third-sec-row .col-md-6 {
+        margin: 20px 0 !important;
+    }
+    .center.slider div, .center.slider div img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    .header-sec-nav .row {
+        --bs-gutter-x: 0;
+    }
+
+    .h2, h2 {
+        font-size: 31px;
+        
+    }
+    span.short-title {
+        font-size: 29px;
+       
+    }
+    .slides {
+        height: calc(39vh - 40px);
+    }
+    .nav-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -80%;
+        height: 100%;
+        width: 50%;
+        padding: 20px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 999;
+    }
+    .nav-menu.active {
+        display: block;
+        transform: translateX(160%);
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        transition: all 0.5s ease;
+    }
+    .header-sec div {
+        font-size: 13px;
+    }
+    .logo img{
+        width: 100% !important;
+        margin: auto;
+      }
+      .header-sec-nav.displayCenter {
+        justify-content: end;
+        align-items: center;
+        padding-right: 33px;
+    }
+    .section-title.py-5 {
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+    section.mb-5{
+            margin-bottom: 1rem!important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-menu.active{
+        gap: 2px;
+    }
+    .nav-menu{
+        width: 80%;
+    }
+    .h2, h2 {
+        font-size: 22px;
+    }
+    span.short-title {
+        font-size: 20px;
+    }
+    .section-title h2:nth-child(3) {
+        padding-bottom: 21px;
+        padding-top: 3px;
+    }
+    .nav-menu.active {
+        transform: translateX(100%);
+    }
+    .header-top .displayCenter {
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .header-top div {
+        font-size: 16px;
+    }
+    .marquee{
+        padding: .2rem!important;
+        font-size: 0.8rem!important;
+    }
+    .header-sec .row {
+        margin-bottom: 0px;
+        padding: 5px 0;
+    }
+    .logo_container.container{
+        margin-right:0px;
+        padding-right: 0px;
+        padding-left: 0px;
+       
+    }
+    .logo_container .row{
+        margin-right:0px;
+    }
+    .section-title.py-5 {
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+    section.mb-5{
+            margin-bottom: 1rem!important;
+    }
+    .achievement-card h3 {
+        font-size: 1.1rem !important;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .footer_section .footer_top, .footer_section_s2 .footer_top, .footer_section_s3 .footer_top {
+        padding: 46px 0 30px;
+    }
+}
